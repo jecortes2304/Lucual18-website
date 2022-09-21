@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="erp" name="Erp Page">
+            <t t-call="website.layout">
+                <t t-call="lucual18_website.custom_header_template"/>
+
+                <section id="banner-section">
+                    <div class="oblique-bg-section-banner parallax-erp section-height">
+                        <div class="row col-lg-5 col-md-5 col-sm-10 col-12">
+                            <div class="card-container">
+                                <div class="custom-card crystal">
+                                    <div class="card-body-custom">
+                                        <div class="s_title pb8" data-name="Title">
+                                            <h1 class="text-white font-weight-bold">
+                                                Consultoría, Implantación Y Desarrollo
+                                            </h1>
+                                        </div>
+
+                                        <div class="text-left mt-4" data-name="Buttons">
+                                             <a t-attf-href="/contact"
+                                               class="btn btn-outline-light rounded border-white mt-2">SOLICITAR INFO
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="erp-section">
+                    <div class="container">
+
+                        <div class="row justify-content-center mb-3 mt-5 px-3">
+                            <img class="img-service" src="/lucual18_website/static/src/img/services/erp.png" alt=""/>
+                        </div>
+                        <div class="row justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">¿ Qué es Odoo ERP ?</h3>
+                            <p class="font-1 col-lg-10 mt-3">
+                                Suite de aplicaciones y framework que provee soluciones de transformación digital,
+                                integración y
+                                usabilidad a pequeñas y medianas empresas.
+                            </p>
+                        </div>
+
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <div class="form-group justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">Beneficios</h3>
+                            <h3 class="font-1">Odoo ERP</h3>
+                        </div>
+
+
+                        <div class="row justify-content-center text-center">
+                            <p class="font-1 col-lg-10 mt-3">
+                                El sistema ERP de Odoo incluye aplicaciones como CRM, Ventas, Inventario, Gestión de
+                                proyectos,
+                                Gestión financiera, RRHH o herramientas de marketing, entre otros. La mayor ventaja de
+                                Odoo reside
+                                en la posibilidad de controlar desde un solo lugar todas las áreas que afectan a nuestro
+                                negocio,
+                                con datos actualizados en tiempo real y desde cualquier lugar.
+                            </p>
+                        </div>
+
+
+                        <div class="row justify-content-center mt-5">
+
+                            <div class="justify-content-center mb-4">
+                                <img class="custom-ill-size custom-radio"
+                                     src="/lucual18_website/static/src/img/illustrations/erp_ill1.png" alt=""/>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <ul>
+                                    <li class="font-1 mb-4 form-inline">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-erp mr-2"/>
+                                        <h6 class="font-weight-bold">MULTI</h6>
+                                        Multiplataforma, multiempresa, multidispositivo y multidivisas
+                                    </li>
+                                    <li class="font-1 my-3 form-inline">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-erp mr-2"/>
+                                        <h6 class="font-weight-bold">Usabilidad</h6>
+                                        Es intuitivo y amigable, sigue una estructura similiar para q la curva d
+                                        aprendizaje de sus
+                                        usuarios sea mas rápida y corta.
+                                    </li>
+                                    <li class="font-1 my-3 form-inline">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-erp mr-2"/>
+                                        <h6 class="font-weight-bold">Escalabilidad</h6>
+                                        Posee una arquitectura modular que permite escalar desde 1 modulo hasta cientos
+                                        de ellos segun
+                                        las necesidad de cada cliente.
+                                    </li>
+                                    <li class="font-1 my-3 form-inline">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-erp mr-2"/>
+                                        <h6 class="font-weight-bold">Integración</h6>
+                                        La implementacion de Odoo es fácil de configurar y se puede integrar facilmente
+                                        con otras
+                                        aplicaciones debido a su compatibilidad con APIs.
+                                    </li>
+                                    <li class="font-1 my-3 form-inline">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-erp mr-2"/>
+                                        <h6 class="font-weight-bold">Personalización</h6>
+                                        Odoo como framework posee alta flexibilidad por lo que puede ser personalizable
+                                        para cumplir
+                                        con los requisitos de cada negocio según requisitos a medida.
+                                    </li>
+                                    <li class="font-1 my-3 form-inline">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-erp mr-2"/>
+                                        <h6 class="font-weight-bold">Seguridad</h6>
+                                        El código abierto hace que Odoo disponga de una alta seguridad, debido a que la
+                                        comunidad y el
+                                        equipo de Odoo pueden encontrar fácilmente posibles brechas de seguridad y
+                                        corregirlas con antelación.
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="lucual18_website.custom_footer_template"/>
+            </t>
+        </template>
+    </data>
+</odoo>

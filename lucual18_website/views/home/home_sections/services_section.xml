@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="services_section_template" name="Services Section">
+            <section id="services_section">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                            <div class="px-3">
+                                <h2 class="font-weight-bold text_format font-1">Servicios
+                                </h2>
+                                <p class="mt-1 font-1">Te proponemos excelentes y variados servicios.
+                                    ¿ Qué podemos hacer para ayudarte ?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="service-item">
+                                <img class="col-lg-3 col-md-3 col-3"
+                                     src="/lucual18_website/static/src/img/services/automation.png" alt=""/>
+
+                                <a class="text-dark text-hover" t-attf-href="/automation">
+                                    <h4 class="font-weight-bold">Automatización</h4>
+                                </a>
+
+                                <p class="font-2">Nuestro equipo cuenta con desarrolladores con amplia experiencia en el
+                                    sector Automatización, aptos para crear productos financieros integrales y prestar
+                                    servicios especializados.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="service-item">
+                                <img class="col-lg-3 col-md-3 col-3"
+                                     src="/lucual18_website/static/src/img/services/erp.png" alt=""/>
+                                <a class="text-dark text-hover" t-attf-href="/erp">
+                                    <h4 class="font-weight-bold font-1">Odoo ERP</h4>
+                                </a>
+                                <p class="font-2">Nos encargamos de la implantación de sistemas ERP para la gestión
+                                    empresarial, e integramos tecnologías del sector FinTech para automatizar los
+                                    procesos productivos
+                                    de tu empresa.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="service-item">
+                                <img class="col-lg-3 col-md-3 col-3"
+                                     src="/lucual18_website/static/src/img/services/web_scraping.png" alt=""/>
+                                <a class="text-dark text-hover" t-attf-href="/scraping-web">
+                                    <h4 class="font-weight-bold font-1">Scraping Web</h4>
+                                </a>
+                                <p class="font-2">Si puedes verlo en la web, podemos obtenerlo para ti. Podemos rastrear
+                                    sitios web arbitrarios, extraer datos estructurados de los mismos y exportarlos al
+                                    formato que se ajuste a tus necesidades.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="service-item">
+                                <img class="col-lg-3 col-md-3 col-3"
+                                     src="/lucual18_website/static/src/img/services/desktop.png" alt=""/>
+                                <a class="text-dark text-hover" t-attf-href="/software-dev">
+                                    <h4 class="font-weight-bold font-1">Desarrollo de Software</h4>
+                                </a>
+                                <p class="font-2">Contamos con un equipo multidisciplinario de consultores digitales y
+                                    tecnológicos, con conocimiento en varias esféras del desarrollo de software,
+                                    convertiremos tus
+                                    ideas en realidad y tu realidad en éxito.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="service-item">
+                                <img class="col-lg-3 col-md-3 col-3"
+                                     src="/lucual18_website/static/src/img/services/branding.png" alt=""/>
+                                <a class="text-dark text-hover" t-attf-href="/corporative-image-design">
+                                    <h4 class="font-weight-bold font-1">Diseño de imagen corportativa</h4>
+                                </a>
+                                <p class="font-2">Daremos vida a tu marca, nuestros diseñadores y consultures extraeran
+                                    de tí tu mas puro estilo y lo plasmaran en todo un proceso de branding y marqueting
+                                    para darles a conocer al mundo lo mejor de ti.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="service-item">
+                                <img class="col-lg-3 col-md-3 col-3"
+                                     src="/lucual18_website/static/src/img/services/outsourcing.png" alt=""/>
+                                <a class="text-dark text-hover" t-attf-href="/outsourcing">
+                                    <h4 class="font-weight-bold font-1">Outsourcing</h4>
+                                </a>
+                                <p class="font-2">Compartimos nuestras experiencias y nuestros mejores especialistas
+                                    para con otras compañías, te ayudamos a resolver problemas de la manera mas factible
+                                    y productiva, justo como Lucual18 hace.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="outsourcing" name="Outsourcing Page">
+            <t t-call="website.layout">
+                <t t-call="lucual18_website.custom_header_template"/>
+
+                <section id="banner-section">
+                    <div class="oblique-bg-section-banner parallax-outsourcing section-height">
+                        <div class="row col-lg-5 col-md-5 col-sm-10 col-12">
+                            <div class="card-container">
+                                <div class="custom-card crystal">
+                                    <div class="card-body-custom">
+                                        <div class="s_title pb8" data-name="Title">
+                                            <h1 class="text-white font-weight-bold">
+                                                Consultoría, Desarrollo y Soporte
+                                            </h1>
+                                        </div>
+
+                                        <div class="text-left mt-4" data-name="Buttons">
+                                             <a t-attf-href="/contact"
+                                               class="btn btn-outline-light rounded border-white mt-2">SOLICITAR INFO
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="outsourcing-section">
+                    <div class="container">
+
+                        <div class="row justify-content-center mb-3 mt-5 px-3">
+                            <img class="img-service" src="/lucual18_website/static/src/img/services/outsourcing.png"
+                                 alt=""/>
+                        </div>
+                        <div class="row justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">¿ Qué es la Subcontratación ?</h3>
+                            <p class="font-1 col-lg-10 mt-3">Externalización de funciones y tareas informáticas a
+                                empresas del sector
+                                con conocimiento técnico y recursos de personal.
+                            </p>
+                        </div>
+
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <div class="form-group justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">Beneficios</h3>
+                            <h3 class="font-1">Subcontratación</h3>
+                        </div>
+
+                        <div class="row justify-content-center mt-5">
+
+                            <div class="justify-content-center mb-4">
+                                <img class="custom-ill-size custom-radio"
+                                     src="/lucual18_website/static/src/img/illustrations/outsourcing_ill.png" alt=""/>
+                            </div>
+
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 justify-content-center">
+                                <ul>
+                                    <li class="font-1 mb-4">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-outsourcing mr-2"/>
+                                        Acceso a profesionales especializados.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-outsourcing mr-2"/>
+                                        Simplifica y elimina los problemas asociados a la gestión.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-outsourcing mr-2"/>
+                                        Permite la focalización de los recursos de empresa en tareas clave y traslada
+                                        parte del riesgo empresarial.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-outsourcing mr-2"/>
+                                        Ahorro de gastos de inversión en infraestructura o tecnología.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-outsourcing mr-2"/>
+                                        Aumento de la productividad de forma flexible asegurando reducción de costes
+                                        importantes.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-outsourcing mr-2"/>
+                                        Ayuda a aprovechar el conocimiento y las habilidades junto con su cadena de
+                                        suministro completa.
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="lucual18_website.custom_footer_template"/>
+            </t>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="custom_header_template" name="Header">
+        <section id="header_section">
+            <header id="my-custom-header" class="header_area" name="my-header">
+                <div class="main_menu">
+                    <nav class="navbar navbar-expand-lg header bg-light">
+                        <div class="container">
+                            <a class="navbar-brand logo_h" t-attf-href="/home">
+                                <img class="logo_h" src="/lucual18_website/static/src/img/logos/l18.png" alt=""/>
+                            </a>
+                            <button class="navbar-toggler navbar-toggler-icon" type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                <span class="icon-bar"/>
+                                <span class="icon-bar"/>
+                                <span class="icon-bar"/>
+                            </button>
+                            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                                <ul class="nav navbar-nav menu_nav justify-content-end">
+                                    <li class="nav-item form-inline btn-group">
+                                        <a class="nav-link font-weight-bolder" t-attf-href="/home#services_section">
+                                            Servicios
+                                        </a>
+                                        <button type="button" class="btn mx-2 dropdown-toggle dropdown-toggle-split"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="sr-only">Toggle Dropdown</span>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" t-attf-href="/automation">Automatización</a>
+                                            <a class="dropdown-item" t-attf-href="/erp">Odoo ERP</a>
+                                            <a class="dropdown-item" t-attf-href="/scraping-web">Scraping Web</a>
+                                            <a class="dropdown-item" t-attf-href="/software-dev">Desarrollo de Software</a>
+                                            <a class="dropdown-item" t-attf-href="/corporative-image-design">Diseño de Imagen Corporativa</a>
+                                            <a class="dropdown-item" t-attf-href="/outsourcing">Outsourcing</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font-weight-bolder" t-attf-href="/home#products_section">
+                                            Productos
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font-weight-bolder" t-attf-href="/home#team_section">Quiénes
+                                            Somos
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a t-attf-href="/contact" class="nav-link font-weight-bolder">
+                                            Contáctenos
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </section>
+    </template>
+</odoo>
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="software_dev" name="Software Development Page">
+            <t t-call="website.layout">
+                <t t-call="lucual18_website.custom_header_template"/>
+
+                <section id="banner-section">
+                    <div class="oblique-bg-section-banner parallax-soft-dev section-height">
+                        <div class="row col-lg-5 col-md-5 col-sm-10 col-12">
+                            <div class="card-container">
+                                <div class="custom-card crystal">
+                                    <div class="card-body-custom my-auto">
+                                        <div class="s_title pb8" data-name="Title">
+                                            <h1 class="text-white font-weight-bold">
+                                                Aplicaciones Web, Móvil y Desktop
+                                            </h1>
+                                        </div>
+                                        <div class="text-left mt-4" data-name="Buttons">
+                                            <a t-attf-href="/contact"
+                                               class="btn btn-outline-light rounded border-white mt-2">SOLICITAR INFO
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="software-dev-section">
+                    <div class="container">
+
+                        <div class="row justify-content-center mb-3 mt-5 px-3">
+                            <img class="img-service" src="/lucual18_website/static/src/img/services/desktop.png"
+                                 alt=""/>
+                        </div>
+                        <div class="row justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">¿ Qué es el Desarrollo de Software ?</h3>
+                            <p class="font-1 col-lg-10 mt-3">El desarrollo de software, a veces denominado desarrollo
+                                de aplicaciones o diseño de software, es un conjunto de procesos repetidos que se
+                                utilizan
+                                para diseñar, crear, desplegar y dar soporte al software.
+                            </p>
+                        </div>
+
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <div class="form-group justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">Beneficios</h3>
+                            <h3 class="font-1">Desarrollo de Software</h3>
+                        </div>
+
+                        <div class="row justify-content-center mt-5">
+
+                            <div class="justify-content-center mb-4">
+                                <img class="custom-ill-size custom-radio"
+                                     src="/lucual18_website/static/src/img/illustrations/soft_dev_ill1.png" alt=""/>
+                            </div>
+
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 justify-content-center">
+                                <ul>
+                                    <li class="font-1 mb-4 form-inline">
+                                        <i
+                                                class="fa fa-dot-circle-o custom-bullet-color-soft-dev mr-2"/>
+                                        <h6 class="font-weight-bold">Exclusividad</h6>
+                                        El proceso se realiza pensando únicamente en tu negocio
+                                    </li>
+                                    <li class="font-1 my-3 form-inline">
+                                        <i
+                                                class="fa fa-dot-circle-o custom-bullet-color-soft-dev mr-2"/>
+                                        <h6 class="font-weight-bold">Opinión del cliente</h6>
+                                        El desarrollador valora en todo momento la opinión del cliente.
+                                    </li>
+                                    <li class="font-1 my-3 form-inline">
+                                        <i
+                                                class="fa fa-dot-circle-o custom-bullet-color-soft-dev mr-2"/>
+                                        <h6 class="font-weight-bold">Personalización</h6>
+                                        El diseño es personalizado y se orienta al público objetivo.
+                                    </li>
+                                    <li class="font-1 my-3 form-inline">
+                                        <i
+                                                class="fa fa-dot-circle-o custom-bullet-color-soft-dev mr-2"/>
+                                        <h6 class="font-weight-bold">Diferenciación</h6>
+                                        El diseño es único y diferencia la imagen de la empresa.
+                                    </li>
+                                    <li class="font-1 my-3 form-inline">
+                                        <i
+                                                class="fa fa-dot-circle-o custom-bullet-color-soft-dev mr-2"/>
+                                        <h6 class="font-weight-bold">Adaptación</h6>
+                                        El desarrollo se adapta a las necesidades específicas del cliente, incluso las
+                                        más ocultas.
+                                    </li>
+                                    <li class="font-1 my-3 form-inline">
+                                        <i
+                                                class="fa fa-dot-circle-o custom-bullet-color-soft-dev mr-2"/>
+                                        <h6 class="font-weight-bold">Mantenimiento</h6>
+                                        Cuando el desarrollo cumple con los estándares de programación, se facilita el
+                                        mantenimiento y
+                                        la actualización.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="lucual18_website.custom_footer_template"/>
+            </t>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,221 @@
+.parallax-erp {
+    background-image: linear-gradient(138deg,
+    rgba(17, 32, 89, 0.6),
+    rgba(13, 43, 45, 0.6),
+    rgba(7, 95, 112, 0.5)),
+    url("/lucual18_website/static/src/img/bgs/erp_final.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-auto {
+    background-image: linear-gradient(138deg,
+    rgba(17, 32, 89, 0.6),
+    rgba(54, 46, 14, 0.6),
+    rgba(121, 89, 7, 0.5)),
+    url("/lucual18_website/static/src/img/bgs/auto_final.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-soft-dev {
+    background-image: linear-gradient(138deg,
+    rgba(10, 22, 65, 0.6),
+    rgba(17, 33, 11, 0.6),
+    rgba(23, 82, 2, 0.5)),
+    url("/lucual18_website/static/src/img/bgs/software_dev2_final.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-web-scraping {
+    background-image: linear-gradient(138deg,
+    rgba(17, 32, 89, 0.6),
+    rgba(54, 27, 20, 0.6),
+    rgba(80, 19, 3, 0.5)),
+    url("/lucual18_website/static/src/img/bgs/scraping_web_final.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-corp-design {
+    background-image: linear-gradient(138deg,
+    rgba(17, 32, 89, 0.6),
+    rgba(19, 33, 51, 0.6),
+    rgba(8, 40, 168, 0.5)),
+    url("/lucual18_website/static/src/img/bgs/corp_img.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-outsourcing {
+    background-image: linear-gradient(138deg,
+    rgba(17, 32, 89, 0.6),
+    rgba(54, 20, 46, 0.6),
+    rgba(144, 7, 150, 0.5)),
+    url("/lucual18_website/static/src/img/bgs/outsourcing_final.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-about {
+    background-image: linear-gradient(138deg,
+    rgba(7, 14, 49, 0.6),
+    rgba(26, 53, 54, 0.6),
+    rgba(66, 64, 32, 0.6),
+    rgba(35, 56, 34, 0.6)),
+    url("/lucual18_website/static/src/img/bgs/10.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-contactus {
+    background-image: linear-gradient(138deg,
+    rgba(7, 14, 49, 0.6),
+    rgba(26, 53, 54, 0.6),
+    rgba(66, 64, 32, 0.6),
+    rgba(35, 56, 34, 0.6)),
+    url("/lucual18_website/static/src/img/bgs/12.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-service {
+    width: 80px;
+}
+
+.logo-about {
+    width: 120px;
+}
+
+.font-1 {
+    font-family: "Century Gothic", serif;
+}
+
+.custom-ill-size {
+    width: 550px;
+}
+
+li {
+    display: list-item;
+}
+
+li::marker {
+    content: '';
+}
+
+.custom-bullet-color-corp-design {
+    color: #253B55;
+}
+
+.custom-bullet-color-auto {
+    color: #6A5F2C;
+}
+
+.custom-bullet-color-scraping {
+    color: #714D40;
+}
+
+.custom-bullet-color-erp {
+    color: #568593;
+}
+
+.custom-bullet-color-outsourcing {
+    color: #C294BA;
+}
+
+.custom-bullet-color-soft-dev {
+    color: #82B97F;
+}
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .img-service {
+        width: 50px;
+    }
+
+    .logo-about {
+        width: 60px;
+    }
+
+    .custom-ill-size {
+        width: 180px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .img-service {
+        width: 60px;
+    }
+
+    .logo-about {
+        width: 75px;
+    }
+
+    .custom-ill-size {
+        width: 250px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .img-service {
+        width: 70px;
+    }
+
+
+    .logo-about {
+        width: 85px;
+    }
+
+    .custom-ill-size {
+        width: 350px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .custom-ill-size {
+        width: 460px;
+    }
+
+
+    .logo-about {
+        width: 95px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+}

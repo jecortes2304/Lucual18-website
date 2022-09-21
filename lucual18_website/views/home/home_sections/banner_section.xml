@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="banner_section_template" name="Banner Section">
+            <section id="banner-section">
+                <div class="oblique-bg-section-banner parallax-home section-height">
+                    <div class="row col-lg-5 col-md-5 col-sm-10 col-12">
+                        <div class="card-container">
+                            <div class="custom-card crystal">
+                                <div class="card-body-custom">
+                                    <div class="s_title pb8" data-name="Title">
+                                        <h1 class="text-white font-weight-bold">
+                                            Nuestra
+                                            experiencia a tu disposición
+                                        </h1>
+                                    </div>
+                                    <p class="text-white font-1">
+                                        Queremos siempre ser parte de la solucion.
+                                    </p>
+                                    <div class="text-left pt16" data-name="Buttons">
+                                        <a id="contact" t-attf-href="/contact"
+                                           class="btn btn-outline-light rounded font-1 border-white mt-2">CONTÁCTANOS
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </template>
+    </data>
+</odoo>

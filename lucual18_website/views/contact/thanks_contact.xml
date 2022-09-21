@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="thanks_contact" name="Contact Thanks Page">
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure oe_empty">
+                    <section class="s_text_block pt40 pb40 o_colored_level " data-snippet="s_text_block">
+                        <div class="container s_allow_columns">
+                            <div class="row">
+                                <div class="col-lg-7 col-xl-6 mr-lg-auto">
+                                    <span class="d-block fa fa-4x fa-thumbs-up mx-auto rounded-circle bg-dark"/>
+                                    <br/>
+                                    <h1 class="text-center">¡Gracias!</h1>
+                                    <div class="pb16 pt16 s_hr" data-snippet="s_hr" data-name="Separator">
+                                        <hr class="mx-auto border-top w-50 border-dark text-center"/>
+                                    </div>
+                                    <h5 class="text-center">
+                                        <span class="fa fa-check-circle"/>
+                                        <span>Su mensaje se ha enviado
+                                            <b>correctamente</b>
+                                        </span>
+                                    </h5>
+                                    <p class="text-center">Nos pondremos en contacto con usted en breve.</p>
+
+                                    <div class="text-center my-4">
+                                        <a t-attf-href="/"
+                                           role="button"
+                                           data-original-title=""
+                                           class="btn btn-outline-dark rounded btn-lg font-1 border-dark mt-2">Inicio
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <ul class="list-unstyled mb-0 pl-2">
+                                        <li class="font-weight-bolder">Lucual18</li>
+                                        <li>
+                                            <i class="fa fa-map-marker fa-fw mr-2"/>
+                                            <span class="o_force_ltr">
+                                                Avenida de Los Voluntarios, 114-10 Galapagar Madrid 28260
+                                                España
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone fa-fw mr-2"/>
+                                            <span class="o_force_ltr">+34 663 31 93 11</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-1x fa-fw fa-envelope mr-2"/>
+                                            <span class="o_force_ltr">layusoelu@lucual18.es</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>

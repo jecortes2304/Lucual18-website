@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="corp_design" name="Corporative Image Design Page">
+            <t t-call="website.layout">
+                <t t-call="lucual18_website.custom_header_template"/>
+
+                <section id="banner-section">
+                    <div class="oblique-bg-section-banner parallax-corp-design section-height">
+                        <div class="row col-lg-5 col-md-5 col-sm-10 col-12">
+                            <div class="card-container">
+                                <div class="custom-card crystal">
+                                    <div class="card-body-custom">
+                                        <div class="s_title pb8" data-name="Title">
+                                            <h1 class="text-white font-weight-bold">
+                                                Diseño y Desarrollo Web
+                                            </h1>
+                                        </div>
+
+                                        <div class="text-left mt-4" data-name="Buttons">
+                                            <a t-attf-href="/contact"
+                                               class="btn btn-outline-light rounded border-white mt-2">SOLICITAR INFO
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="corp-design-section">
+
+                    <div class="container">
+
+                        <div class="row justify-content-center mb-3 mt-5 px-3">
+                            <img class="img-service" src="/lucual18_website/static/src/img/services/branding.png"
+                                 alt=""/>
+                        </div>
+                        <div class="row justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">¿ Qué es el diseño de imagen corporativa ?</h3>
+                            <p class="font-1 col-lg-10 mt-3">Identidad visual de la empresa que comprende elementos
+                                tangibles e
+                                intangibles tales como su propio
+                                nombre, valores de la marca, logo o página web.
+                            </p>
+                        </div>
+
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <div class="form-group justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">Beneficios</h3>
+                            <h3 class="font-1">Diseño de Imagen Corporativa</h3>
+                        </div>
+
+                        <div class="row justify-content-center mt-5">
+
+                            <div class="justify-content-center mb-4">
+                                <img class="custom-ill-size custom-radio mx-auto m-0"
+                                     src="/lucual18_website/static/src/img/illustrations/corp_design_ill.png" alt=""/>
+                            </div>
+
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 justify-content-center">
+                                <ul>
+                                    <li class="font-1 mb-4">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-corp-design mr-2"/>
+                                        Podrán diferenciarte ante la competencia con mayor facilidad.
+                                    </li>
+                                    <li class="font-1 my-4">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-corp-design mr-2"/>
+                                        La marca ofrece una autodefensa frente a la competencia.
+                                    </li>
+                                    <li class="font-1 my-4">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-corp-design mr-2"/>
+                                        Posicionamiento. Una identidad corporativa bien desarrollada se queda atrapada
+                                        en la mente de tus consumidores.
+                                    </li>
+                                    <li class="font-1 my-4">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-corp-design mr-2"/>
+                                        Adaptación. Permite a tu identidad adaptarse a nuevos escenarios. Esto es muy
+                                        importante
+                                        frente a la competencia.
+                                    </li>
+                                    <li class="font-1 my-4">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-corp-design mr-2"/>
+                                        Tendrás un distintivo en tus acciones de marketing online.
+                                    </li>
+                                    <li class="font-1 my-4">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-corp-design mr-2"/>
+                                        La marca ofrece una autodefensa frente a la competencia.
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+
+                <t t-call="lucual18_website.custom_footer_template"/>
+            </t>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="automation" name="Automation Page">
+            <t t-call="website.layout">
+                <t t-call="lucual18_website.custom_header_template"/>
+
+                <section id="banner-section">
+                    <div class="oblique-bg-section-banner parallax-auto section-height">
+                        <div class="row col-lg-5 col-md-5 col-sm-10 col-12">
+                            <div class="card-container">
+                                <div class="custom-card crystal">
+                                    <div class="card-body-custom">
+                                        <div class="card-title" data-name="Title">
+                                            <h1 class="text-white font-weight-bold">
+                                                Consultoría, Implatación y Desarrollo
+                                            </h1>
+                                        </div>
+
+                                        <div class="text-left mt-4" data-name="Buttons">
+                                            <a t-attf-href="/contact"
+                                               class="btn btn-outline-light rounded border-white mt-2">SOLICITAR INFO
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="automation-section">
+                    <div class="container">
+
+                        <div class="row justify-content-center mb-3 mt-5 px-3">
+                            <img class="img-service" src="/lucual18_website/static/src/img/services/automation.png"
+                                 alt=""/>
+                        </div>
+                        <div class="row justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">¿ Qué es la Automatización ?</h3>
+                            <p class="font-1 col-lg-10 mt-3">La automatización de procesos permite mejorar la eficiencia
+                                de todos aquellos desarrollos en los que se aplica, lo que faculta una optimización
+                                máxima, tanto
+                                desde un punto de vista de recursos empleados como desde el punto de vista de la calidad
+                                obtenida.
+                            </p>
+                        </div>
+
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <div class="form-group justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">Beneficios</h3>
+                            <h3 class="font-1">Diseño de la Automatización</h3>
+                        </div>
+
+                        <div class="row justify-content-center mt-5">
+
+                            <div class="justify-content-center mb-4">
+                                <img class="custom-ill-size custom-radio"
+                                     src="/lucual18_website/static/src/img/illustrations/auto_ill1.png" alt=""/>
+                            </div>
+
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 justify-content-center">
+                                <ul>
+                                    <li class="font-1 mb-4">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-auto mr-2"/>
+                                        Mayor productividad y reducción de los costes operativos de los recursos.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-auto mr-2"/>
+                                        Permite repetir de forma fiel los procesos sin variación entre unos y otros.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i/>
+                                        Eliminación del error humano.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-auto mr-2"/>
+                                        Mejoría de los procesos de comunicación interna.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-auto mr-2"/>
+                                        Permite el desarrollo de tareas rutinarias y repetitivas de forma mucho más
+                                        eficiente.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-auto mr-2"/>
+                                        Permite trabajar con sistemas integrados y coordinados entre sí.
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="lucual18_website.custom_footer_template"/>
+            </t>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="scraping_web" name="Scraping Web Page">
+            <t t-call="website.layout">
+                <t t-call="lucual18_website.custom_header_template"/>
+
+                <section id="banner-section">
+                    <div class="oblique-bg-section-banner parallax-web-scraping section-height">
+                        <div class="row col-lg-5 col-md-5 col-sm-10 col-12">
+                            <div class="card-container">
+                                <div class="custom-card crystal">
+                                    <div class="card-body-custom">
+                                        <div class="s_title pb8" data-name="Title">
+                                            <h1 class="text-white font-weight-bold">
+                                                Extración y Transformación de Datos
+                                            </h1>
+                                        </div>
+
+                                        <div class="text-left mt-4" data-name="Buttons">
+                                             <a t-attf-href="/contact"
+                                               class="btn btn-outline-light rounded border-white mt-2">SOLICITAR INFO
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="scraping-web-section">
+                    <div class="container">
+
+                        <div class="row justify-content-center mb-3 mt-5 px-3">
+                            <img class="img-service" src="/lucual18_website/static/src/img/services/web_scraping.png"
+                                 alt=""/>
+                        </div>
+                        <div class="row justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">¿ Qué es el Scraping Web ?</h3>
+                            <p class="font-1 col-lg-10 mt-3">Técnica de extracción y transformación de datos no
+                                extructurados
+                                de sitios web siendo mediante programas o software llamados robots
+                            </p>
+                        </div>
+
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <div class="form-group justify-content-center text-center">
+                            <h3 class="font-1 font-weight-bold">Beneficios</h3>
+                            <h3 class="font-1">Scraping Web</h3>
+                        </div>
+
+                        <div class="row justify-content-center mt-5">
+
+                            <div class="justify-content-center mb-4">
+                                <img class="custom-ill-size custom-radio"
+                                     src="/lucual18_website/static/src/img/illustrations/web_scraping_ill1.png" alt=""/>
+                            </div>
+
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 justify-content-center">
+                                <ul>
+                                    <li class="font-1 mb-4">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-scraping mr-2"/>
+                                        Disminuir carga de trabajo.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-scraping mr-2"/>
+                                        Aumentar la velocidad de los procesos.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-scraping mr-2"/>
+                                        Eliminar el error humano.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-scraping mr-2"/>
+                                        Manejar grandes cantidades de datos.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-scraping mr-2"/>
+                                        Conseguir los datos en formatos procesables.
+                                    </li>
+                                    <li class="font-1 my-3">
+                                        <i class="fa fa-dot-circle-o custom-bullet-color-scraping mr-2"/>
+                                        Optimizacion de decisiones a partir de volumnes de datos bien estructurados
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="lucual18_website.custom_footer_template"/>
+            </t>
+        </template>
+    </data>
+</odoo>

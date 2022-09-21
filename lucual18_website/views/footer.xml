@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="custom_footer_template" name="Footer">
+        <section id="custom_footer_section">
+            <footer class="footer-07 oblique-bg-section-footer">
+                <div class="container justify-content-center">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2 class="footer-heading">
+                                <img src="/lucual18_website/static/src/img/logos/l181.png" class="logo_h" alt="logo"/>
+                                <a t-attf-href="/home" class="logo">Lucual18</a>
+                            </h2>
+
+                            <div class="row justify-content-center">
+                                <div class="form-group col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <h5 class="text-white font-weight-bolder">
+                                        <i class="fa fa-phone text-white mr-2"/>Teléfono:
+                                    </h5>
+                                    <p class="text-white">+34 663 31 93 11</p>
+                                </div>
+                                <div class="form-group col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <h5 class="text-white font-weight-bolder">
+                                        <i class="fa fa-map-marker text-white mr-2"/>Estamos en:
+                                    </h5>
+                                    <p class="text-white">Avenida de Los Voluntarios, 114-10 Galapagar Madrid 28260
+                                        España
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <h5 class="text-white font-weight-bolder">¿Cómo podemos ayudar?</h5>
+                                    <p class="text-white">Póngase en contacto con nosotros en cualquier momento</p>
+                                    <a id="contact" t-attf-href="/contact"
+                                       class="btn btn-outline-ligth-custom rounded font-1 border-white mt-2">CONTÁCTANOS
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="products-content-wrap">
+                                <div class="products-content">
+                                    <p class="text-white">Síganos</p>
+                                    <div class="products-social row justify-content-center">
+                                        <ul>
+                                            <li>
+                                                <a class="facebook"
+                                                   t-attf-href="https://es-la.facebook.com/Lucual18SL/"
+                                                   href="https://es-la.facebook.com/Lucual18SL/"
+                                                   target="_blank">
+                                                    <i class="fa fa-facebook"/>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="linkedin"
+                                                   t-attf-href="https://www.linkedin.com/company/lucual18/?originalSubdomain=es"
+                                                   href="https://www.linkedin.com/company/lucual18/?originalSubdomain=es"
+                                                   target="_blank">
+                                                    <i class="fa fa-linkedin"/>
+                                                </a>
+                                            </li>
+                                            <!--                                            <li>-->
+                                            <!--                                                <a class="twitter"-->
+                                            <!--                                                   href="#" target="_blank">-->
+                                            <!--                                                    <i class="fa fa-twitter"/>-->
+                                            <!--                                                </a>-->
+                                            <!--                                            </li>-->
+                                            <!--                                            <li>-->
+                                            <!--                                                <a class="instagram"-->
+                                            <!--                                                   href="#" target="_blank">-->
+                                            <!--                                                    <i class="fa fa-instagram"/>-->
+                                            <!--                                                </a>-->
+                                            <!--                                            </li>-->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 text-center justify-content-center">
+                        <div class="form-group mt-5">
+                            <h5 class="text-white font-weight-bolder">
+                                Lucual18:
+                            </h5>
+                            <p class="text-white">CIF: B88083563</p>
+                        </div>
+
+                        <p class="copyright mt-5">
+                            Lucual18
+                            <i class="fa fa-copyright"/>2022
+                            <!--                            <script>document.write(new Date().getFullYear());</script>-->
+                            Todos los derechos reservados
+                        </p>
+                    </div>
+
+                </div>
+            </footer>
+        </section>
+    </template>
+</odoo>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="home" name="Home Page">
+            <t t-call="website.layout">
+                <t t-call="lucual18_website.custom_header_template"/>
+                <t t-call="lucual18_website.banner_section_template"/>
+                <t t-call="lucual18_website.services_section_template"/>
+                <t t-call="lucual18_website.products_section_template"/>
+                <t t-call="lucual18_website.team_section_template"/>
+                <t t-call="lucual18_website.references_section_template"/>
+                <t t-call="lucual18_website.custom_footer_template"/>
+            </t>
+        </template>
+    </data>
+</odoo>
